@@ -2,11 +2,11 @@ body {
     position: relative;
     width: auto;
    
+    background-color: rgb(188, 211, 231);
  }
 
 
  main{
-
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -26,7 +26,7 @@ body {
     
     .modal {
         width: 375px;
-        margin: 10% auto auto;
+        margin: 8% auto auto;
         position: relative;
         text-align: center;
         background: #fff;
@@ -58,6 +58,7 @@ body {
         align-items: center;
         border: solid;
         border-radius: 8px;
+        background-color: rgb(230, 237, 243);
      }
 
      .text-container{
